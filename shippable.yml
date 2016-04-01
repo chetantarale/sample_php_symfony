@@ -4,6 +4,10 @@ language: php
 
 php:
   - '7.0'
+  
+addons:
+  hosts:
+    local.symfony2-standard-template: 127.0.0.1
 
 before_install:
   - sudo apt-get update
